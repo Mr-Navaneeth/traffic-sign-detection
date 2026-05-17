@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 34
+names: ['CROSS_ROAD', 'GAP_IN_MEDIAN', 'GENERAL', 'GIVE_WAY', 'GO_SLOW', 'HORN_PROHIBITED', 'HUMP_OR_ROUGH_ROAD', 'INFORMATION', 'KEEP_EITHER_SIDE', 'KEEP_LEFT', 'LEFT_TURN_AHEAD', 'NARROW_BRIDGE_AHEAD', 'NARROW_ROAD_AHEAD', 'NO_PARKING', 'NO_STOPPING_OR_STANDING', 'OVERTAKING_PROHIBITED', 'PEDESTRIAN_CROSSING', 'PEDESTRIAN_PROHIBITED', 'RIGHT_TURN_AHEAD', 'ROAD_WIDENS_AHEAD', 'ROUNDABOUT', 'SCHOOL_AHEAD', 'SIDE_ROAD_LEFT', 'SIDE_ROAD_RIGHT', 'SPEED_LIMIT_30', 'SPEED_LIMIT_40', 'SPEED_LIMIT_60', 'STAGGERED_INTERSECTION', 'STOP', 'TURN_LEFT', 'TURN_RIGHT', 'U_TURN', 'U_TURN_PROHIBITED', 'WARNING']
+
+roboflow:
+  workspace: navaneeths-workspace-rba4v
+  project: traffic-sign-detection-v3-uv24z
+  version: 2
+  license: Private
+  url: https://app.roboflow.com/navaneeths-workspace-rba4v/traffic-sign-detection-v3-uv24z/2
